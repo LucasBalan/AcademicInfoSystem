@@ -39,6 +39,7 @@ namespace AcademicInfoSystem.UI
         private void ManageGroups_Load(object sender, EventArgs e)
         {
             panel1.Visible = false;
+            dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
         }
 
         public void RefreshGroups()

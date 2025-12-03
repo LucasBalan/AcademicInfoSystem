@@ -68,6 +68,7 @@ namespace AcademicInfoSystem.UI
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             dataGridView1.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
+            
             dataGridView1.MultiSelect = false;
         }
 
@@ -93,6 +94,8 @@ namespace AcademicInfoSystem.UI
             comboBoxSubjects.DisplayMember = "Name";
             comboBoxSubjects.ValueMember = "SubjectID";
             panel1.Visible = false;
+
+            dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
 
             var students = studentService.GetAll();
             selectStudentBox.DataSource = students;
@@ -239,7 +242,7 @@ namespace AcademicInfoSystem.UI
         private void buttonEditGrade_Click(object sender, EventArgs e)
         {
 
-            if(dataGridView1.SelectedRows.Count == 0 || dataGridView1.ColumnCount > 1)
+            if(dataGridView1.SelectedRows.Count  == 0 || dataGridView1.SelectedRows.Count > 1)
             {
                 MessageBox.Show("Please select one row");
                 return;

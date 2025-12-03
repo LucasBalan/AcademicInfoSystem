@@ -32,24 +32,24 @@
             this.label4 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
+            this.saveButton = new System.Windows.Forms.Button();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.addDepartment = new System.Windows.Forms.ComboBox();
+            this.addAcademicTitle = new System.Windows.Forms.ComboBox();
+            this.addHireDate = new System.Windows.Forms.DateTimePicker();
+            this.addDateOfBirth = new System.Windows.Forms.DateTimePicker();
+            this.addLastName = new System.Windows.Forms.TextBox();
+            this.addFirstName = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
             this.addTeacherButton = new System.Windows.Forms.Button();
             this.deleteTeacherButton = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
-            this.addFirstName = new System.Windows.Forms.TextBox();
-            this.addLastName = new System.Windows.Forms.TextBox();
-            this.addDateOfBirth = new System.Windows.Forms.DateTimePicker();
-            this.addHireDate = new System.Windows.Forms.DateTimePicker();
-            this.addAcademicTitle = new System.Windows.Forms.ComboBox();
-            this.addDepartment = new System.Windows.Forms.ComboBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.saveButton = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -110,95 +110,83 @@
             this.panel1.Size = new System.Drawing.Size(208, 310);
             this.panel1.TabIndex = 19;
             // 
-            // addTeacherButton
+            // button1
             // 
-            this.addTeacherButton.Location = new System.Drawing.Point(806, 26);
-            this.addTeacherButton.Name = "addTeacherButton";
-            this.addTeacherButton.Size = new System.Drawing.Size(90, 28);
-            this.addTeacherButton.TabIndex = 20;
-            this.addTeacherButton.Text = "Add";
-            this.addTeacherButton.UseVisualStyleBackColor = true;
-            this.addTeacherButton.Click += new System.EventHandler(this.addTeacherButton_Click);
+            this.button1.BackColor = System.Drawing.Color.RosyBrown;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(3, 279);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(84, 28);
+            this.button1.TabIndex = 15;
+            this.button1.Text = "Cancel";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // deleteTeacherButton
+            // saveButton
             // 
-            this.deleteTeacherButton.Location = new System.Drawing.Point(920, 26);
-            this.deleteTeacherButton.Name = "deleteTeacherButton";
-            this.deleteTeacherButton.Size = new System.Drawing.Size(89, 28);
-            this.deleteTeacherButton.TabIndex = 21;
-            this.deleteTeacherButton.Text = "Delete";
-            this.deleteTeacherButton.UseVisualStyleBackColor = true;
-            this.deleteTeacherButton.Click += new System.EventHandler(this.deleteTeacherButton_Click);
+            this.saveButton.BackColor = System.Drawing.Color.Olive;
+            this.saveButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.saveButton.Location = new System.Drawing.Point(111, 279);
+            this.saveButton.Name = "saveButton";
+            this.saveButton.Size = new System.Drawing.Size(94, 28);
+            this.saveButton.TabIndex = 14;
+            this.saveButton.Text = "SAVE";
+            this.saveButton.UseVisualStyleBackColor = false;
+            this.saveButton.Click += new System.EventHandler(this.saveButton_Click);
             // 
-            // label2
+            // label9
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(65, 11);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(92, 20);
-            this.label2.TabIndex = 0;
-            this.label2.Text = "ADD TEACHER";
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(82, 234);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(52, 13);
+            this.label9.TabIndex = 12;
+            this.label9.Text = "Hire Date";
             // 
-            // addFirstName
+            // label8
             // 
-            this.addFirstName.Location = new System.Drawing.Point(20, 53);
-            this.addFirstName.Name = "addFirstName";
-            this.addFirstName.Size = new System.Drawing.Size(173, 20);
-            this.addFirstName.TabIndex = 1;
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(74, 194);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(77, 13);
+            this.label8.TabIndex = 11;
+            this.label8.Text = "Academic Title";
             // 
-            // addLastName
+            // label7
             // 
-            this.addLastName.Location = new System.Drawing.Point(20, 92);
-            this.addLastName.Name = "addLastName";
-            this.addLastName.Size = new System.Drawing.Size(173, 20);
-            this.addLastName.TabIndex = 2;
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(78, 154);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(62, 13);
+            this.label7.TabIndex = 10;
+            this.label7.Text = "Department";
             // 
-            // addDateOfBirth
+            // label6
             // 
-            this.addDateOfBirth.Location = new System.Drawing.Point(5, 131);
-            this.addDateOfBirth.Name = "addDateOfBirth";
-            this.addDateOfBirth.Size = new System.Drawing.Size(200, 20);
-            this.addDateOfBirth.TabIndex = 3;
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(74, 115);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(66, 13);
+            this.label6.TabIndex = 9;
+            this.label6.Text = "Date of Birth";
             // 
-            // addHireDate
+            // label5
             // 
-            this.addHireDate.Location = new System.Drawing.Point(5, 250);
-            this.addHireDate.Name = "addHireDate";
-            this.addHireDate.Size = new System.Drawing.Size(200, 20);
-            this.addHireDate.TabIndex = 4;
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(82, 76);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(58, 13);
+            this.label5.TabIndex = 8;
+            this.label5.Text = "Last Name";
             // 
-            // addAcademicTitle
+            // label3
             // 
-            this.addAcademicTitle.AutoCompleteCustomSource.AddRange(new string[] {
-            "Professor",
-            "Associate Professor",
-            "Assistant Professor",
-            "Lecturer",
-            "Senior Lecturer",
-            "Teaching Assistant",
-            "Instructor",
-            "Researcher",
-            "Senior Researcher",
-            "Doctor (PhD)",
-            "Master (MSc)"});
-            this.addAcademicTitle.FormattingEnabled = true;
-            this.addAcademicTitle.Items.AddRange(new object[] {
-            "Professor",
-            "Associate Professor",
-            "Assistant Professor",
-            "Lecturer",
-            "Senior Lecturer",
-            "Teaching Assistant",
-            "Instructor",
-            "Researcher",
-            "Senior Researcher",
-            "Doctor (PhD)",
-            "Master (MSc)"});
-            this.addAcademicTitle.Location = new System.Drawing.Point(20, 210);
-            this.addAcademicTitle.Name = "addAcademicTitle";
-            this.addAcademicTitle.Size = new System.Drawing.Size(173, 21);
-            this.addAcademicTitle.TabIndex = 5;
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(82, 37);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(57, 13);
+            this.label3.TabIndex = 7;
+            this.label3.Text = "First Name";
             // 
             // addDepartment
             // 
@@ -242,59 +230,95 @@
             this.addDepartment.Size = new System.Drawing.Size(175, 21);
             this.addDepartment.TabIndex = 6;
             // 
-            // label3
+            // addAcademicTitle
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(82, 37);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(57, 13);
-            this.label3.TabIndex = 7;
-            this.label3.Text = "First Name";
+            this.addAcademicTitle.AutoCompleteCustomSource.AddRange(new string[] {
+            "Professor",
+            "Associate Professor",
+            "Assistant Professor",
+            "Lecturer",
+            "Senior Lecturer",
+            "Teaching Assistant",
+            "Instructor",
+            "Researcher",
+            "Senior Researcher",
+            "Doctor (PhD)",
+            "Master (MSc)"});
+            this.addAcademicTitle.FormattingEnabled = true;
+            this.addAcademicTitle.Items.AddRange(new object[] {
+            "Professor",
+            "Associate Professor",
+            "Assistant Professor",
+            "Lecturer",
+            "Senior Lecturer",
+            "Teaching Assistant",
+            "Instructor",
+            "Researcher",
+            "Senior Researcher",
+            "Doctor (PhD)",
+            "Master (MSc)"});
+            this.addAcademicTitle.Location = new System.Drawing.Point(20, 210);
+            this.addAcademicTitle.Name = "addAcademicTitle";
+            this.addAcademicTitle.Size = new System.Drawing.Size(173, 21);
+            this.addAcademicTitle.TabIndex = 5;
             // 
-            // label5
+            // addHireDate
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(82, 76);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(58, 13);
-            this.label5.TabIndex = 8;
-            this.label5.Text = "Last Name";
+            this.addHireDate.Location = new System.Drawing.Point(5, 250);
+            this.addHireDate.Name = "addHireDate";
+            this.addHireDate.Size = new System.Drawing.Size(200, 20);
+            this.addHireDate.TabIndex = 4;
             // 
-            // label6
+            // addDateOfBirth
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(74, 115);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(66, 13);
-            this.label6.TabIndex = 9;
-            this.label6.Text = "Date of Birth";
+            this.addDateOfBirth.Location = new System.Drawing.Point(5, 131);
+            this.addDateOfBirth.Name = "addDateOfBirth";
+            this.addDateOfBirth.Size = new System.Drawing.Size(200, 20);
+            this.addDateOfBirth.TabIndex = 3;
             // 
-            // label7
+            // addLastName
             // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(78, 154);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(62, 13);
-            this.label7.TabIndex = 10;
-            this.label7.Text = "Department";
+            this.addLastName.Location = new System.Drawing.Point(20, 92);
+            this.addLastName.Name = "addLastName";
+            this.addLastName.Size = new System.Drawing.Size(173, 20);
+            this.addLastName.TabIndex = 2;
             // 
-            // label8
+            // addFirstName
             // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(74, 194);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(77, 13);
-            this.label8.TabIndex = 11;
-            this.label8.Text = "Academic Title";
+            this.addFirstName.Location = new System.Drawing.Point(20, 53);
+            this.addFirstName.Name = "addFirstName";
+            this.addFirstName.Size = new System.Drawing.Size(173, 20);
+            this.addFirstName.TabIndex = 1;
             // 
-            // label9
+            // label2
             // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(82, 234);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(52, 13);
-            this.label9.TabIndex = 12;
-            this.label9.Text = "Hire Date";
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(65, 11);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(92, 20);
+            this.label2.TabIndex = 0;
+            this.label2.Text = "ADD TEACHER";
+            // 
+            // addTeacherButton
+            // 
+            this.addTeacherButton.Location = new System.Drawing.Point(806, 26);
+            this.addTeacherButton.Name = "addTeacherButton";
+            this.addTeacherButton.Size = new System.Drawing.Size(90, 28);
+            this.addTeacherButton.TabIndex = 20;
+            this.addTeacherButton.Text = "Add";
+            this.addTeacherButton.UseVisualStyleBackColor = true;
+            this.addTeacherButton.Click += new System.EventHandler(this.addTeacherButton_Click);
+            // 
+            // deleteTeacherButton
+            // 
+            this.deleteTeacherButton.Location = new System.Drawing.Point(920, 26);
+            this.deleteTeacherButton.Name = "deleteTeacherButton";
+            this.deleteTeacherButton.Size = new System.Drawing.Size(89, 28);
+            this.deleteTeacherButton.TabIndex = 21;
+            this.deleteTeacherButton.Text = "Delete";
+            this.deleteTeacherButton.UseVisualStyleBackColor = true;
+            this.deleteTeacherButton.Click += new System.EventHandler(this.deleteTeacherButton_Click);
             // 
             // pictureBox1
             // 
@@ -304,30 +328,6 @@
             this.pictureBox1.Size = new System.Drawing.Size(165, 124);
             this.pictureBox1.TabIndex = 22;
             this.pictureBox1.TabStop = false;
-            // 
-            // saveButton
-            // 
-            this.saveButton.BackColor = System.Drawing.Color.Olive;
-            this.saveButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.saveButton.Location = new System.Drawing.Point(111, 279);
-            this.saveButton.Name = "saveButton";
-            this.saveButton.Size = new System.Drawing.Size(94, 28);
-            this.saveButton.TabIndex = 14;
-            this.saveButton.Text = "SAVE";
-            this.saveButton.UseVisualStyleBackColor = false;
-            this.saveButton.Click += new System.EventHandler(this.saveButton_Click);
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.RosyBrown;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(3, 279);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(84, 28);
-            this.button1.TabIndex = 15;
-            this.button1.Text = "Cancel";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // ManageTeachers
             // 
@@ -344,6 +344,7 @@
             this.Controls.Add(this.label1);
             this.Name = "ManageTeachers";
             this.Text = "ManageTeachers";
+            this.Load += new System.EventHandler(this.ManageTeachers_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

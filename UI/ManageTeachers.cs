@@ -166,5 +166,10 @@ namespace AcademicInfoSystem.UI
 
               
         }
+
+        private void ManageTeachers_Load(object sender, EventArgs e)
+        {
+            dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+        }
     }
 }

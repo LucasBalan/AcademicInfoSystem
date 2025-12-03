@@ -49,6 +49,7 @@ namespace AcademicInfoSystem.UI
             addGroupId.DataSource = groups;
             addGroupId.DisplayMember = "GroupID";
             addGroupId.ValueMember = "GroupID";
+            dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
 
         }
         private void RefreshStudents()
@@ -136,7 +137,6 @@ namespace AcademicInfoSystem.UI
                     );
                 return;
             }
-
             else if (userService.GetByCredentials(username, password) != null)
             {
                 MessageBox.Show(

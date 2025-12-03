@@ -61,6 +61,7 @@ namespace AcademicInfoSystem.UI
         private void ManageSubjects_Load(object sender, EventArgs e)
         {
             panel1.Visible = false;
+            dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             RefreshSubjects();
 
         }

@@ -50,6 +50,7 @@ namespace AcademicInfoSystem.UI
         {
             LoadTeachers();
             LoadSubjects();
+         
 
         }
 
@@ -94,10 +95,7 @@ namespace AcademicInfoSystem.UI
 
         private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
         {
-            selectSubjectBox.DataSource = subjectRepository.GetAll();
-
-            selectSubjectBox.DisplayMember = "Name";
-            selectSubjectBox.ValueMember = "SubjectID";
+          
 
         }
     }
